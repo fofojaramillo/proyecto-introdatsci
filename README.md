@@ -145,6 +145,38 @@ La elección de las técnicas se basó en criterios clave:
 * **Resultados y Visualización:**
 Los resultados fueron visualizados mediante gráficos de barras que muestran la asertividad promedio de cada modelo en la clasificación de vinos buenos y malos utilizando el metodo K-Fold.
 
+### Descripción de los datos
+
+El dataframe consta de 11 variables numéricas continuas que describen propiedades químicas del vino, y una variable target "wine_quality", la cual es una variable categórica ordinal con 7 valores disponibles (los números del 3 al 9). Procedemos a describir algunas de las variables involucradas en esta base de datos.
+
+#### 'fixed_acids'
+
+Estos también son llamados ácidos no volátiles, y son aquellos que no pueden ser respirados por los pulmones.
+
+#### 'Volatile acidity'
+
+Es una medida de cantidad de ácidos grasos de bajo peso en el vino, y por lo general es percibido como el olor del vinagre.
+
+#### 'citric_acid'
+
+Es añadido al vino de forma artificial para incrementar la acidez, complementar algún sabor y prevenir la creación de suspensiones ferricas.
+
+#### 'residual_sugar'
+
+Azucar que proviene de restos de la uva natural después del proceso de fermentación.
+
+#### 'chlorides'
+
+Influido por el suelo, clima, la varidad de la uva, y otros factores, es de gran importancia tener en cuenta los cloruros, ya que le da al vino un sabor salado indeseado.
+
+#### 'free_sulfur_dioxide'
+
+El dióxido de azufre es utilizado como conservador primario del vino. Actúa como antioxidante y antimicrobiano.
+
+### Preparación de los datos
+
+Se decide que datos son relevantes para el modelado, se obtienen variables nuevas de ser necesario. 
+
 ### Conclusión de la fase de Modelación:
 
 La elección de técnicas y modelos se basó en una cuidadosa consideración de los requisitos y características específicas del problema, así como en la utilización de prácticas de validación cruzada para obtener estimaciones confiables del rendimiento del modelo.

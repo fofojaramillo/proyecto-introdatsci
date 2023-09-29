@@ -32,6 +32,34 @@ El proyecto sigue los siguientes pasos.
 
 Con la base de datos, hay que describir los tipos de variable que existe para los registros, que tipo de datos tiene. Finalizando con una exploración simple del cual sacar conclusiones sobre la conclusión de los datos.
 
+### Descripción de los datos
+
+El dataframe consta de 11 variables numéricas continuas que describen propiedades químicas del vino, y una variable target "wine_quality", la cual es una variable categórica ordinal con 7 valores disponibles (los números del 3 al 9). Procedemos a describir algunas de las variables involucradas en esta base de datos.
+
+#### 'fixed_acids'
+
+Estos también son llamados ácidos no volátiles, y son aquellos que no pueden ser respirados por los pulmones.
+
+#### 'Volatile acidity'
+
+Es una medida de cantidad de ácidos grasos de bajo peso en el vino, y por lo general es percibido como el olor del vinagre.
+
+#### 'citric_acid'
+
+Es añadido al vino de forma artificial para incrementar la acidez, complementar algún sabor y prevenir la creación de suspensiones ferricas.
+
+#### 'residual_sugar'
+
+Azucar que proviene de restos de la uva natural después del proceso de fermentación.
+
+#### 'chlorides'
+
+Influido por el suelo, clima, la varidad de la uva, y otros factores, es de gran importancia tener en cuenta los cloruros, ya que le da al vino un sabor salado indeseado.
+
+#### 'free_sulfur_dioxide'
+
+El dióxido de azufre es utilizado como conservador primario del vino. Actúa como antioxidante y antimicrobiano.
+
 ### Preparación de los datos
 
 Se decide que datos son relevantes para el modelado, se obtienen variables nuevas de ser necesario. 

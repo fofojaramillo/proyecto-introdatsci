@@ -25,6 +25,14 @@ Con foco en la industria vitivinícola y su interés en mejorar la calidad de su
 
 Este modelo de predicción es de gran valor para la industria vinícola, ya que permitirá a las bodegas y productores evaluar la calidad de sus vinos de manera más eficiente y precisa. Al comprender cómo las diferentes propiedades químicas y físicas influyen en la calidad percibida del vino, las empresas pueden tomar decisiones más informadas sobre cómo ajustar sus procesos de producción para mejorar sus productos y satisfacer las preferencias de los consumidores. Además, este modelo también puede ser útil para identificar tendencias y patrones en la producción de vinos con el tiempo, lo que podría conducir a innovaciones en la elaboración de vinos y estrategias de comercialización más efectivas. En resumen, la comprensión del negocio se enfoca en el objetivo de mejorar la calidad del vino a través de un análisis integral de los datos disponibles y la creación de un modelo predictivo sólido.
 
+#### Valoración de la situación actual
+
+El vino es una de las bebidas alcoholicas más consumidas alrededor del mundo. Debido a su popularidad, anualmente se producen más de 230 millones de hectalitros alrededor del mundo. El mercado global de esta bebida en 2021 estuvo evaluado en aproximadamente 340.23 millones de dolares, y se espera que este valor ascienda a 456.76 millones de dólares con una tasa de crecimiento anual compuesta del 4.3%.
+
+Esta bebida además resulta ser bastante compleja, y por ende ha sido clasificada de distintas formas por sus diversas cualidades. Algunas de las características que influyen en la calidad del vino son el cuerpo, esto es, la intensidad de color y la densidad, su dulzor, su acidez, y los grados de alcohol. Ante esto, son muchos los factores que necesitan ser controlados para obtener ciertas características en esta bebida, por ejemplo, la especie de uva a utilizar, la selección de las mismas uvas, posibles plagas de la vid, factores ambientales y orgánicos en el proceso de fermentación, entre otros.
+ 
+A nivel industrial, la producción del vino involucra muchos gastos. Podemos mencionar, por ejemplo, máquinas como desgranadoras, prensas, molinos e incluso embotelladoras, las cuales además de tener cierto costo, necesitan otro tipo de recursos para funcionar y mantenimiento. Otros gastos incluyen personal, control sobre distintos factores en la producción del vino e incluso el transporte.
+
 
 <div style="background-color: #f0f0f0; padding: 5px;">
   <h2>Preparación de los datos</h2>

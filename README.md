@@ -159,3 +159,7 @@ La evaluación del modelo se basó en métricas como la precisión (accuracy). L
 ### Conclusión de la fase de Modelación:
 
 La elección de técnicas y modelos se basó en una cuidadosa consideración de los requisitos y características específicas del problema, así como en la utilización de prácticas de validación cruzada para obtener estimaciones confiables del rendimiento del modelo.
+
+### Implantación
+
+Verbo verbo verbo

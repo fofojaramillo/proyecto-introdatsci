@@ -1,6 +1,5 @@
 
-# proyecto-introdatsci
-> Repositorio del proyecto final del primer módulo de Introducción a la Ciencia de Datos.
+# Proyecto de Introducción a la Ciencia de Datos
 
 ## MODELOS PARA CLASIFICACIÓN DE VINOS (METODOLOGÍA CRISP-DM)
 
@@ -9,21 +8,6 @@
 </div>
 
 > Proyecto para la materia de Introducción a la ciencia de datos y sus metodologías, se enfoca en la clasificación de la calidad de vinos tintos.
-
-Estos vinos exhiben una serie de características distintivas como:
-
-* acidez fija
-* acidez volátil 
-* ácido cítrico 
-* azúcar residual 
-* cloruros, 
-* dióxido de azufre libre
-* dióxido de azufre total, 
-* densidad
-* pH
-* sulfatos
-* grados de alcohol
-* calidad, que se utilizará como variable clasificatoria.
 
 El proyecto seguirá la metodología CRISP-DM, abordando las siguientes etapas: 
 
@@ -65,6 +49,33 @@ Hemos optado por trabajar con una base de datos de vinos tintos que cuenta con d
 * pH
 * sulphates
 * alcohol
+### Descripción de los datos
+
+El dataframe consta de 11 variables numéricas continuas que describen propiedades químicas del vino, y una variable target "wine_quality", la cual es una variable categórica ordinal con 7 valores disponibles (los números del 3 al 9). Procedemos a describir algunas de las variables involucradas en esta base de datos.
+
+#### 'fixed_acids'
+
+Estos también son llamados ácidos no volátiles, y son aquellos que no pueden ser respirados por los pulmones.
+
+#### 'Volatile acidity'
+
+Es una medida de cantidad de ácidos grasos de bajo peso en el vino, y por lo general es percibido como el olor del vinagre.
+
+#### 'citric_acid'
+
+Es añadido al vino de forma artificial para incrementar la acidez, complementar algún sabor y prevenir la creación de suspensiones ferricas.
+
+#### 'residual_sugar'
+
+Azucar que proviene de restos de la uva natural después del proceso de fermentación.
+
+#### 'chlorides'
+
+Influido por el suelo, clima, la varidad de la uva, y otros factores, es de gran importancia tener en cuenta los cloruros, ya que le da al vino un sabor salado indeseado.
+
+#### 'free_sulfur_dioxide'
+
+El dióxido de azufre es utilizado como conservador primario del vino. Actúa como antioxidante y antimicrobiano.
 
 Estas características se denominarán colectivamente como nuestra variable independiente "X" en todo el modelo. Asimismo, de la muestra, utilizaremos la siguiente variable como etiqueta de clase:
 
@@ -129,10 +140,6 @@ Se implementó la validación cruzada k-fold con 10 particiones y 5 repeticiones
 
 Se utilizó código en Python, aprovechando las bibliotecas como scikit-learn para implementar los modelos y la validación cruzada, y seaborn y matplotlib para visualizar los resultados.
 
-### Evaluación del Modelo:
-
-La evaluación del modelo se basó en métricas como la precisión (accuracy). Las métricas fueron promediadas sobre las repeticiones y los pliegues de la validación cruzada para obtener estimaciones más confiables.
-
 ### Criterios para la Elección de Técnicas de Modelado:
 
 La elección de las técnicas se basó en criterios clave:
@@ -145,37 +152,9 @@ La elección de las técnicas se basó en criterios clave:
 * **Resultados y Visualización:**
 Los resultados fueron visualizados mediante gráficos de barras que muestran la asertividad promedio de cada modelo en la clasificación de vinos buenos y malos utilizando el metodo K-Fold.
 
-### Descripción de los datos
+### Evaluación del Modelo:
 
-El dataframe consta de 11 variables numéricas continuas que describen propiedades químicas del vino, y una variable target "wine_quality", la cual es una variable categórica ordinal con 7 valores disponibles (los números del 3 al 9). Procedemos a describir algunas de las variables involucradas en esta base de datos.
-
-#### 'fixed_acids'
-
-Estos también son llamados ácidos no volátiles, y son aquellos que no pueden ser respirados por los pulmones.
-
-#### 'Volatile acidity'
-
-Es una medida de cantidad de ácidos grasos de bajo peso en el vino, y por lo general es percibido como el olor del vinagre.
-
-#### 'citric_acid'
-
-Es añadido al vino de forma artificial para incrementar la acidez, complementar algún sabor y prevenir la creación de suspensiones ferricas.
-
-#### 'residual_sugar'
-
-Azucar que proviene de restos de la uva natural después del proceso de fermentación.
-
-#### 'chlorides'
-
-Influido por el suelo, clima, la varidad de la uva, y otros factores, es de gran importancia tener en cuenta los cloruros, ya que le da al vino un sabor salado indeseado.
-
-#### 'free_sulfur_dioxide'
-
-El dióxido de azufre es utilizado como conservador primario del vino. Actúa como antioxidante y antimicrobiano.
-
-### Preparación de los datos
-
-Se decide que datos son relevantes para el modelado, se obtienen variables nuevas de ser necesario. 
+La evaluación del modelo se basó en métricas como la precisión (accuracy). Las métricas fueron promediadas sobre las repeticiones y los pliegues de la validación cruzada para obtener estimaciones más confiables.
 
 ### Conclusión de la fase de Modelación:
 

@@ -1,3 +1,4 @@
+
 # proyecto-introdatsci
 > Repositorio del proyecto final del primer módulo de Introducción a la Ciencia de Datos.
 
@@ -33,6 +34,12 @@ El proyecto seguirá la metodología CRISP-DM, abordando las siguientes etapas:
 - Evaluación.
 
 En la fase de evaluación, se empleará la técnica de validación cruzada K-Fold para estimar el rendimiento predictivo del modelo. Además, se compararán y evaluarán algoritmos de clasificación, como las Máquinas de Soporte Vectorial (SVM) y el análisis discriminante, con el fin de determinar el modelo óptimo. La clasificación de los datos en conjuntos de entrenamiento, prueba y validación será considerada para garantizar la robustez del modelo.
+
+### Comprensión del negocio
+
+Con foco en la industria vitivinícola y su interés en mejorar la calidad de sus productos. La base de datos proporciona una rica colección de datos numéricos relacionados con diversas propiedades químicas y físicas de los vinos, incluyendo características como acidez fija, acidez volátil, contenido de azúcar residual, concentración de cloruros, y otros parámetros. El objetivo fundamental es utilizar estos datos para desarrollar un modelo predictivo que pueda evaluar y predecir la calidad del vino, representada por la variable objetivo "quality", que se expresa en valores enteros.
+
+Este modelo de predicción es de gran valor para la industria vinícola, ya que permitirá a las bodegas y productores evaluar la calidad de sus vinos de manera más eficiente y precisa. Al comprender cómo las diferentes propiedades químicas y físicas influyen en la calidad percibida del vino, las empresas pueden tomar decisiones más informadas sobre cómo ajustar sus procesos de producción para mejorar sus productos y satisfacer las preferencias de los consumidores. Además, este modelo también puede ser útil para identificar tendencias y patrones en la producción de vinos con el tiempo, lo que podría conducir a innovaciones en la elaboración de vinos y estrategias de comercialización más efectivas. En resumen, la comprensión del negocio se enfoca en el objetivo de mejorar la calidad del vino a través de un análisis integral de los datos disponibles y la creación de un modelo predictivo sólido.
 
 
 <div style="background-color: #f0f0f0; padding: 5px;">

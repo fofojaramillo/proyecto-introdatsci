@@ -9,6 +9,12 @@
 
 > Proyecto para la materia de Introducción a la ciencia de datos y sus metodologías, se enfoca en la clasificación de la calidad de vinos tintos.
 
+Autores:
+Luis Ernesto Ortiz Villalón
+Rodolfo Armando Jaramillo Ruiz
+Mario Estrada Ferreira
+Luis Andrés Burruel Durán
+
 El proyecto seguirá la metodología CRISP-DM, abordando las siguientes etapas: 
 
 - Comprensión del negocio (definición de objetivos de investigación, evaluación de la situación actual y definición de objetivos de minería de datos, planificación del proyecto)
@@ -27,7 +33,7 @@ Este modelo de predicción es de gran valor para la industria vinícola, ya que 
 
 #### Valoración de la situación actual
 
-El vino es una de las bebidas alcoholicas más consumidas alrededor del mundo. Debido a su popularidad, anualmente se producen más de 230 millones de hectalitros alrededor del mundo. El mercado global de esta bebida en 2021 estuvo evaluado en aproximadamente 340.23 millones de dolares, y se espera que este valor ascienda a 456.76 millones de dólares con una tasa de crecimiento anual compuesta del 4.3%.
+El vino es una de las bebidas alcoholicas más consumidas alrededor del mundo. Debido a su popularidad, anualmente se producen más de 230 millones de hectalitros alrededor del mundo. El mercado global de esta bebida en 2021 estuvo evaluado en aproximadamente 340.23 mil millones de dolares, y se espera que este valor ascienda a 456.76 millones de dólares con una tasa de crecimiento anual compuesta del 4.3%.
 
 Esta bebida además resulta ser bastante compleja, y por ende ha sido clasificada de distintas formas por sus diversas cualidades. Algunas de las características que influyen en la calidad del vino son el cuerpo, esto es, la intensidad de color y la densidad, su dulzor, su acidez, y los grados de alcohol. Ante esto, son muchos los factores que necesitan ser controlados para obtener ciertas características en esta bebida, por ejemplo, la especie de uva a utilizar, la selección de las mismas uvas, posibles plagas de la vid, factores ambientales y orgánicos en el proceso de fermentación, entre otros.
  

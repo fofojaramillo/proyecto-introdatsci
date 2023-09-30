@@ -170,4 +170,11 @@ La elección de técnicas y modelos se basó en una cuidadosa consideración de 
 
 ### Implantación
 
-Verbo verbo verbo
+La validación de los modelos se hizo utilizando un set de datos de validación que no fueron utilizados en el proceso de aprendizaje. Se usaron datos completos (de los que se conoce el valor 'quality' real), el modelo genera una predicción para la variable calidad, y se compara con el valor real. 
+La calificación resultante es el 'acurracy score', que expresa de manera porcentual el número de predicciones correctas. 
+
+El modelo que mejor desempeño tuvo es el 'Análisis discriminante', el cuál hizo una predicción correcta el 81% de las veces. 
+
+Cualquier interesado en conocer la calidad específica de un vino del cuál conoce todas sus carácterísticas necesarias para el modelo, puede, con cierta certeza, saber si el vino es bueno o malo: Un consumidor puede descubrir lo propio de una marca desconocida, un productor que sabe cómo afecta un cambio en la cadena de producción a cierta carácterística específica puede predecir la calidad antes de hacer dichos cambios etc. 
+
+La implementación del modelo con fines de desarrollo comercial van más allá del alcance de éste proyecto. Vale la pena agregar que 'Calidad' puede ser una variable bastante subjetiva, que no necesariamente representa sabor, o valor comercial. Es por eso que resulta clara la necesidad de un experto en la materia para extraer el mayor valor de los modelos. 

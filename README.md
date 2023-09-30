@@ -10,9 +10,13 @@
 > Proyecto para la materia de Introducción a la ciencia de datos y sus metodologías, se enfoca en la clasificación de la calidad de vinos tintos.
 
 Autores:
+
 Luis Ernesto Ortiz Villalón
+
 Rodolfo Armando Jaramillo Ruiz
+
 Mario Estrada Ferreira
+
 Luis Andrés Burruel Durán
 
 El proyecto seguirá la metodología CRISP-DM, abordando las siguientes etapas: 

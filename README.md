@@ -25,4 +25,6 @@ Con la base de datos, hay que describir los tipos de variable que existe para lo
 
 ### Preparación de los datos
 
-Se decide que datos son relevantes para el modelado, se obtienen variables nuevas de ser necesario. 
+Se le da una revisición a los datos y se les da el analisis necesario para poder llevarlo al modelo elegido.
+
+### 
